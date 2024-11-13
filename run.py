@@ -4,6 +4,7 @@ import os
 
 app = create_app()
 
+# Create the database tables
 if __name__ == '__main__':
     instance_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'instance')
     if not os.path.exists(instance_path):
